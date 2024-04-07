@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+
+body{
+    font-family: "Candal", sans-serif;
+    font-weight: 400;
+}
+
+.pass-box input{
+    outline: none;
+    padding: auto;
+}
+
+  input[type="checkbox"]:checked {
+    background-color: red; 
+  }
+.password-hist>ul{
+  height: 100px;
+  overflow-y: auto;
+}
+.historyul>li{
+  list-style: disc;
+  color: white;
+
+  padding-bottom: 10px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    height: 6px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 187, 187);
+    border-radius: 50%;
+    border: none;
+  
+    transition: .2s ease-in-out;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 187, 187);
+    border-radius: 50%;
+    border: none;
+    
+    transition: .2s ease-in-out;
+  }
+  
+  
+  input[type="range"]::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(255,85,0, .1)
+  }
+  input[type="range"]:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgb(0, 187, 187);
+  }
+  input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgba(0, 187, 187, 0.265);
+  }
+  
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
