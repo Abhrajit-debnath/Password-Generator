@@ -17,7 +17,7 @@ function generatePassword(length) {
   const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const lowercase = "abcdefghijklmnopqrstuvwxyz";
   const digits = "0123456789";
-  const symbols = "= ~!@#$%^&*()_+[]{}|;:,./<i>?";
+  const symbols = "= ~!@#$%^&*()_+[]{}|;:,./<>?";
   let characters = "";
   characters += upperbtn.checked ? uppercase : "";
   characters += lowerbtn.checked ? lowercase : "";
